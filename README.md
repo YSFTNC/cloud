@@ -6,8 +6,11 @@ Projeler AWS, Azure ve Google Cloud Platform servislerini kullanarak gerçek zam
 
 Her grup üyesi, her projeye dair bireysel anlatım videosu çekmiş ve GitHub reposunda kullanılan teknolojileri, veri setlerini ve projeleri açıklayan dökümantasyon eklemiştir. Projelerin detayları ve video anlatım bağlantıları aşağıda yer almaktadır.
 
+<<<<<<< HEAD
 Datasets klasöründe yalnızca Proje-2 için veri seti bulunmaktadır.
 
+=======
+>>>>>>> ee5ceebc81b08ad230f5aefed51352ab7561a1e8
 ---
 
 ## 👤 Grup Üyeleri
@@ -26,7 +29,11 @@ Datasets klasöründe yalnızca Proje-2 için veri seti bulunmaktadır.
 > Backend: Node.js + Express + MongoDB  
 > Platform: AWS (EB + Amplify)
 
+<<<<<<< HEAD
 - 📂 [`project1-skynotes`](./project1-skynotes/)
+=======
+- 📂 (https://github.com/brckfrc/skynotes.git)
+>>>>>>> ee5ceebc81b08ad230f5aefed51352ab7561a1e8
 - 🌐 Canlı Demo: [Skynotes](https://skynotes.borak.dev/)
 - 🎥 Bora: [YouTube](https://youtu.be/EyVPyuHyZCw)
 - 🎥 Hüseyin: [YouTube](https://youtu.be/uzP7cAMslx4)
@@ -40,7 +47,11 @@ Datasets klasöründe yalnızca Proje-2 için veri seti bulunmaktadır.
 > Backend: Python + Sagemaker  
 > Platform: AWS (S3, Lambda, API Gateway)
 
+<<<<<<< HEAD
 - 📂 [`project2-ml-analytics`](./project2-ml-analytics/)
+=======
+- 📂 (https://github.com/hsyntinaztepe/mlproject)
+>>>>>>> ee5ceebc81b08ad230f5aefed51352ab7561a1e8
 - 🎥 Bora: [YouTube](https://youtu.be/P8G7fpsn-ig)
 - 🎥 Hüseyin: [YouTube](https://youtu.be/Lqkzts8Yn48)
 - 🎥 Yusuf: [YouTube](https://youtu.be/hDo2oQ2puFU)
@@ -53,7 +64,11 @@ Datasets klasöründe yalnızca Proje-2 için veri seti bulunmaktadır.
 > Backend: Node.js + MongoDB  
 > Platform: Azure (Web App + Static Web App)
 
+<<<<<<< HEAD
 - 📂 [`project3-ecommerce`](./project3-ecommerce/)
+=======
+- 📂 (https://github.com/hsyntinaztepe/ecommerce-project)
+>>>>>>> ee5ceebc81b08ad230f5aefed51352ab7561a1e8
 - 🌐 Canlı Demo: [Azure Site](https://nice-sand-04de3bb0f.6.azurestaticapps.net)
 - 🎥 Bora: [YouTube](https://youtu.be/K70y9Q2krTs)
 - 🎥 Hüseyin: [YouTube](https://youtu.be/9z-mOofC4VY)
@@ -66,7 +81,11 @@ Datasets klasöründe yalnızca Proje-2 için veri seti bulunmaktadır.
 > Backend: Python 3.13  
 > Platform: Google Cloud (Pub/Sub, Cloud Functions, Firestore, BigQuery)
 
+<<<<<<< HEAD
 - 📂 [`project4-iot-gcp`](./project4-iot-gcp/)
+=======
+- 📂 (https://github.com/brckfrc/sensora)
+>>>>>>> ee5ceebc81b08ad230f5aefed51352ab7561a1e8
 - 🔗 [Looker Studio Dashboard](https://lookerstudio.google.com/reporting/95e13dc5-2708-4148-885f-037f6f775e4c)
 - 🎥 Bora: [YouTube](https://youtu.be/tA8p7Vt9Aio)
 - 🎥 Hüseyin: [YouTube](https://youtu.be/nQBN8iOe3TE)
