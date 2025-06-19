@@ -1,0 +1,68 @@
+# .github/workflows/deploy-backend-to-eb.yml
+
+name: Deploy Backend to Elastic Beanstalk
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "backend/**"
+
+env:
+  EB_APPLICATION_NAME: skynotes-api
+  EB_ENVIRONMENT_NAME: skynotes-api-env-v2
+  EB_REGION: eu-central-1
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Navigate to backend directory
+        run: cd backend
+
+      - name: Install backend dependencies
+        run: npm install
+        working-directory: backend
+
+      - name: Create .zip deployment package
+        run: |
+          zip -r deploy.zip . -x "node_modules/*" ".git/*" ".env*" "config.json" "dist/*" "logs/*" "*.log" "tmp/*" "temp/*" ".DS_Store" ".idea/*" ".vscode/*"
+        working-directory: backend
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.EB_REGION }}
+
+      - name: Deploy to Elastic Beanstalk
+        uses: einaregilsson/beanstalk-deploy@v22
+        with:
+          aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          application_name: ${{ env.EB_APPLICATION_NAME }}
+          environment_name: ${{ env.EB_ENVIRONMENT_NAME }}
+          version_label: github-actions-${{ github.sha }}
+          region: ${{ env.EB_REGION }}
+          deployment_package: backend/deploy.zip
+
+      - name: Check Elastic Beanstalk environment health
+        run: |
+          aws elasticbeanstalk describe-environment-health \
+            --environment-name ${{ env.EB_ENVIRONMENT_NAME }} \
+            --attribute-names All \
+            --region ${{ env.EB_REGION }}
+
+      - name: Verify Deployment (Optional)
+        run: echo "Deployment to Elastic Beanstalk complete!"

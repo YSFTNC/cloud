@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+publisher_function/venv/
+cloud_function_code/venv/
+
+# System files (macOS / Windows)
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+*.env
+*.local
+*.pem
+
+# pip logs
+pip-log.txt
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# GCP service account keys and credentials
+*.json
+!schema.json  # Keep schema.json if it’s part of the project
+
+# Test cache / coverage
+.pytest_cache/
+coverage/

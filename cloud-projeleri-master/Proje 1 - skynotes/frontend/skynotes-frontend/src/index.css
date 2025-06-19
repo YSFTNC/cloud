@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: "Noto Sans", sans-serif;
+  }
+
+  body {
+    background-color: #fdfeff;
+    overflow-x: hidden;
+  }
+
+  :root {
+    --color-primary: #2b85ff;
+    --color-secondary: #ef863e;
+  }
+}
+
+@layer components {
+  .input-box {
+    @apply w-full text-sm bg-transparent border-[1.5px] px-5 py-3 rounded mb-4 outline-none;
+  }
+
+  .btn-primary {
+    @apply w-full text-sm text-white p-2 rounded my-1;
+    background-color: var(--color-primary);
+  }
+
+  .text-primary {
+    color: var(--color-primary);
+  }
+
+  .icon-btn {
+    @apply text-xl cursor-pointer;
+  }
+
+  .icon-btn:hover {
+    color: var(--color-primary);
+  }
+
+  .input-label {
+    @apply text-xs text-slate-400;
+  }
+}
+
+@layer utilities {
+  .hover\:text-primary:hover {
+    color: var(--color-primary);
+  }
+}
