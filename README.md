@@ -30,7 +30,7 @@ Datasets klasöründe yalnızca Proje-2 için veri seti bulunmaktadır.
 > Platform: AWS (EB + Amplify)
 
 <<<<<<< HEAD
-- 📂 [`project1-skynotes`](./project1-skynotes/)
+- 📂 [`Proje 1 - skynotes`](./Proje%201%20-%20skynotes/)
 =======
 - 📂 (https://github.com/brckfrc/skynotes.git)
 >>>>>>> ee5ceebc81b08ad230f5aefed51352ab7561a1e8
