@@ -1,3 +1,13 @@
+PROJE 1 GitHub Linki: Çift Katmanlı Web Uygulaması (Web API + Frontend)
+https://github.com/brckfrc/skynotes.git
+PROJE 2 GitHub Linki: Akıllı Veri Analitiği ve Makine Öğrenmesi Uygulaması
+https://github.com/hsyntinaztepe/mlproject
+PROJE 3 GitHub Linki: E-Ticaret Uygulaması (Otomatik Ölçeklendirme ve Yönetim)
+https://github.com/hsyntinaztepe/ecommerce-project
+PROJE 4 GitHub Linki: Gerçek Zamanlı Veri Akışı ve İşleme (IoT Uygulaması)
+https://github.com/brckfrc/sensora
+
+
 PROJE 1 - YouTube Linki: Çift Katmanlı Web Uygulaması (Web API + Frontend)
 Bora - https://youtu.be/EyVPyuHyZCw 
 Hüseyin - https://youtu.be/uzP7cAMslx4
