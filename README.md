@@ -1,3 +1,13 @@
+22290071-cloud.pdf -> Teslim edilen son döküman
+
+Cloud Final Rapor.pdf -> Final Raporu
+
+Cloud Vize Rapor.pdf -> Vize Raporu
+
+test-V-1.csv -> Proje 2 de kullanılan örnek veriseti
+
+train-V-1.csv -> Proje 2 de kullanılan örnek veriseti
+
 PROJE 1 GitHub Linki: Çift Katmanlı Web Uygulaması (Web API + Frontend)
 
 https://github.com/brckfrc/skynotes.git
