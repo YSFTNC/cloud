@@ -1,61 +1,81 @@
-22290071-cloud.pdf -> Teslim edilen son döküman
+# 2024–2025 Bahar Dönemi – Bulut Bilişim Final Projeleri
 
-Cloud Final Rapor.pdf -> Final Raporu
+Bu repo, Bora Kocabıyık, Hüseyin Tınaztepe ve Yusuf Tunç tarafından yürütülen 4 farklı bulut tabanlı projeyi içermektedir. Her proje, ayrı klasörlerde geliştirilmiş, kendi kod yapısına, video anlatımına ve platform bağımsız uygulama senaryolarına sahiptir.
 
-Cloud Vize Rapor.pdf -> Vize Raporu
+Projeler AWS, Azure ve Google Cloud Platform servislerini kullanarak gerçek zamanlı veri işleme, web uygulaması geliştirme, makine öğrenmesi ve otomatik ölçeklenen e-ticaret sistemleri gibi alanlarda uygulanmıştır.
 
-test-V-1.csv -> Proje 2 de kullanılan örnek veriseti
+Her grup üyesi, her projeye dair bireysel anlatım videosu çekmiş ve GitHub reposunda kullanılan teknolojileri, veri setlerini ve projeleri açıklayan dökümantasyon eklemiştir. Projelerin detayları ve video anlatım bağlantıları aşağıda yer almaktadır.
 
-train-V-1.csv -> Proje 2 de kullanılan örnek veriseti
+---
 
-PROJE 1 GitHub Linki: Çift Katmanlı Web Uygulaması (Web API + Frontend)
+## 👤 Grup Üyeleri
 
-https://github.com/brckfrc/skynotes.git
+- Bora Kocabıyık – 21290270
+- Hüseyin Tınaztepe – 21290360
+- Yusuf Tunç – 22290071
 
-PROJE 2 GitHub Linki: Akıllı Veri Analitiği ve Makine Öğrenmesi Uygulaması
+---
 
-https://github.com/hsyntinaztepe/mlproject
+## 📁 Projeler ve Bağlantılar
 
-PROJE 3 GitHub Linki: E-Ticaret Uygulaması (Otomatik Ölçeklendirme ve Yönetim)
+### 🔹 Proje 1 – Çift Katmanlı Web Uygulaması (SkyNotes)
 
-https://github.com/hsyntinaztepe/ecommerce-project
+> Frontend: ReactJS + Tailwind CSS  
+> Backend: Node.js + Express + MongoDB  
+> Platform: AWS (EB + Amplify)
 
-PROJE 4 GitHub Linki: Gerçek Zamanlı Veri Akışı ve İşleme (IoT Uygulaması)
+- 📂 (https://github.com/brckfrc/skynotes.git)
+- 🌐 Canlı Demo: [Skynotes](https://skynotes.borak.dev/)
+- 🎥 Bora: [YouTube](https://youtu.be/EyVPyuHyZCw)
+- 🎥 Hüseyin: [YouTube](https://youtu.be/uzP7cAMslx4)
+- 🎥 Yusuf: [YouTube](https://youtu.be/2Uld3BLzK_E)
 
-https://github.com/brckfrc/sensora
+---
 
+### 🔹 Proje 2 – Makine Öğrenmesi ile Fiyat Tahmini
 
-PROJE 1 - YouTube Linki: Çift Katmanlı Web Uygulaması (Web API + Frontend)
+> ML: Random Forest  
+> Backend: Python + Sagemaker  
+> Platform: AWS (S3, Lambda, API Gateway)
 
-Bora - https://youtu.be/EyVPyuHyZCw 
+- 📂 (https://github.com/hsyntinaztepe/mlproject)
+- 🎥 Bora: [YouTube](https://youtu.be/P8G7fpsn-ig)
+- 🎥 Hüseyin: [YouTube](https://youtu.be/Lqkzts8Yn48)
+- 🎥 Yusuf: [YouTube](https://youtu.be/hDo2oQ2puFU)
 
-Hüseyin - https://youtu.be/uzP7cAMslx4
+---
 
-Yusuf - https://youtu.be/2Uld3BLzK_E
+### 🔹 Proje 3 – Otomatik Ölçeklenen E-Ticaret Uygulaması
 
+> Frontend: HTML/CSS/JS  
+> Backend: Node.js + MongoDB  
+> Platform: Azure (Web App + Static Web App)
 
-PROJE 2 - YouTube Linki: Akıllı Veri Analitiği ve Makine Öğrenmesi Uygulaması
+- 📂 (https://github.com/hsyntinaztepe/ecommerce-project)
+- 🌐 Canlı Demo: [Azure Site](https://nice-sand-04de3bb0f.6.azurestaticapps.net)
+- 🎥 Bora: [YouTube](https://youtu.be/K70y9Q2krTs)
+- 🎥 Hüseyin: [YouTube](https://youtu.be/9z-mOofC4VY)
+- 🎥 Yusuf: [YouTube](https://youtu.be/Lglhx8VGsTo)
 
-Bora - https://youtu.be/P8G7fpsn-ig 
+---
 
-Hüseyin - https://youtu.be/Lqkzts8Yn48
+### 🔹 Proje 4 – Gerçek Zamanlı IoT Veri İşleme (Sensora)
 
-Yusuf - https://youtu.be/hDo2oQ2puFU
+> Backend: Python 3.13  
+> Platform: Google Cloud (Pub/Sub, Cloud Functions, Firestore, BigQuery)
 
+- 📂 (https://github.com/brckfrc/sensora)
+- 🔗 [Looker Studio Dashboard](https://lookerstudio.google.com/reporting/95e13dc5-2708-4148-885f-037f6f775e4c)
+- 🎥 Bora: [YouTube](https://youtu.be/tA8p7Vt9Aio)
+- 🎥 Hüseyin: [YouTube](https://youtu.be/nQBN8iOe3TE)
+- 🎥 Yusuf: [YouTube](https://youtu.be/ZfUPqlrDnx8)
 
-PROJE 3 - YouTube Linki: E-Ticaret Uygulaması (Otomatik Ölçeklendirme ve Yönetim)
+---
 
-Bora - https://youtu.be/K70y9Q2krTs 
+## 📌 Notlar
 
-Hüseyin - https://youtu.be/9z-mOofC4VY
+- Her projenin geliştirme adımları, kullanılan teknolojileri ve test senaryoları proje klasöründeki `README.md` dosyalarında detaylandırılmıştır.
+- Tüm videolar bireysel olarak hazırlanmış ve erişime açık linklerle paylaşılmıştır.
+- Kullanılan veri setleri ve dökümanlar ilgili klasörlerde yer almaktadır.
 
-Yusuf - https://youtu.be/Lglhx8VGsTo
-
-
-PROJE 4 - YouTube Linki: Gerçek Zamanlı Veri Akışı ve İşleme (IoT Uygulaması)
-
-Bora - https://youtu.be/tA8p7Vt9Aio 
-
-Hüseyin - https://youtu.be/nQBN8iOe3TE
-
-Yusuf - https://youtu.be/ZfUPqlrDnx8 
+---
